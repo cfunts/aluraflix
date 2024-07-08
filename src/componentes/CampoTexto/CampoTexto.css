@@ -1,0 +1,29 @@
+.contenedorCampoTexto{
+    display: flex;
+    flex-direction: column;
+    width: 573px;
+    height: 108px;
+    gap: 15px;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+label{
+    width: 150px;
+    height: 31px;
+    margin:0;
+    color:var(--White);
+    display: flex;
+    align-items: flex-end;
+}
+
+input{
+    width: 500px;
+    height: 62px;
+    color:var(--Light-Gray);
+    background-color: transparent;
+    border: 5px solid var(--White);
+    border-radius: 10px;
+    padding-left: 10px;
+    outline-color: var(--Blue);
+}

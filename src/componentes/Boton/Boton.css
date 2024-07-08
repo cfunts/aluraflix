@@ -1,0 +1,19 @@
+.boton{
+    width: 180px;
+    height: 54px;
+    opacity: 0px;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+    color: var(--White);
+    background-color: transparent;
+    border: 1px solid var(--White);
+    border-radius: 15px;
+}
+.boton:hover{
+    background-color: var(--Dark);
+    color:var(--Blue);
+    border: 1px solid var(--Blue);
+}

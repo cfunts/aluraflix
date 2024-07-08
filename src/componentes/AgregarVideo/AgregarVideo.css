@@ -1,0 +1,23 @@
+.tituloSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--Dark);
+
+}
+
+.title{
+    color: var(--Blue);
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    border-bottom: 4px solid var(--Blue);;
+}
+
+.tituloSection img{
+    display: flex;
+    right: 30%;
+    cursor: pointer;
+    color: var(--Blue);
+}
